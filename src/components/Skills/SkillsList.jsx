@@ -1,4 +1,5 @@
 import React from 'react';
+import SkillItem from './SkillItem';
 import './skills.scss'
 
 const SkillsList = () => {
@@ -67,7 +68,9 @@ const SkillsList = () => {
 
   return (
     <div className="skills">
-      
+        {skillList.map((item) => (
+            <SkillItem key={item.id} item={item} />
+        ))}
     </div>
   )
 }
