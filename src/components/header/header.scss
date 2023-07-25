@@ -51,8 +51,12 @@
     }
 
     &__item {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         padding: 1.6rem 2rem;
+
+        @include respond(big-desktop) {
+            font-size: 1.8rem;
+        }
         
         &--link {
             position: relative;

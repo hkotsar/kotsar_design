@@ -1,7 +1,11 @@
 @import '../base.scss';
 
 .projects {
-    margin-top: -48rem;
+    margin-top: -38rem;
     overflow: hidden;
     margin-bottom: 4rem;
+
+    @include respond(big-desktop) {
+        margin-top: -48rem;
+    }
 }

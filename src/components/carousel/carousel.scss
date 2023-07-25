@@ -4,7 +4,15 @@
     position: relative;
     overflow: hidden;
     width:100%;
-    height: 64vh;
+    height: 74vh;
+
+    @include respond(big-desktop) {
+        height: 64vh;
+    }
+
+    @include respond(tab-land) {
+        display: none;
+    }
     
     &__slide {
         display: flex;
@@ -14,14 +22,15 @@
         top: 0;
         position: absolute;
         width: auto;
-        padding-left: 22%;
-        
-        
+        padding-left: 46rem;
         margin-top: 3.2rem;
-        
         
         // overflow: visible;
         transition: transform .4s;
+
+        @include respond(big-desktop) {
+            padding-left: 22%;
+        }
        
     }
 }
@@ -36,8 +45,14 @@
     margin-bottom: 1.9rem;
 
     &--heading {
-        font-size: 4.8rem;
+        font-size: 3.2rem;
         color: #fff;
+
+        @include respond(big-desktop) {
+            font-size: 4.8rem;
+        }
+
+       
     }
 }
 
@@ -48,8 +63,8 @@
 }
 
 .arrow__btn {
-    height: 6.4rem;
-    width: 6.4rem;
+    height: 5.6rem;
+    width: 5.6rem;
     border: none;
     border-radius: 50%;
     font-family: inherit;
@@ -57,6 +72,10 @@
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     
+    @include respond(big-desktop) {
+        height: 6.4rem;
+        width: 6.4rem;
+    }
 
     &--icon {
         height: 3.2rem;
@@ -69,15 +88,25 @@
     display: flex;
     gap: 5%;
     // gap: 6.4rem;
-    margin-left: -35rem;
+    margin-left: -41rem;
+
+    @include respond(big-desktop) {
+        gap: 5%;
+        margin-left: -35rem;
+    }
     
 
     &__item {
-        width: 64rem;
-        height: 54rem;
+        width: 48rem;
+        height: 42rem;
         background: #fff;
         border-radius: 16px;
         box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+        @include respond(big-desktop) {
+            width: 64rem;
+            height: 54rem;
+        }
 
 
         &--img {
@@ -90,11 +119,20 @@
         &--content {
             display: flex;
             flex-direction: column;
-            padding: 2.4rem 1.8rem;
+            padding: 1.8rem 1.8rem;
+
+            @include respond(big-desktop) {
+                padding: 2.4rem 1.8rem;
+            }
 
             h2 {
-                font-size: 2.4rem;
-                margin-bottom: 2.4rem;
+                font-size: 1.8rem;
+                margin-bottom: 1.8rem;
+
+                @include respond(big-desktop) {
+                    font-size: 2.4rem;
+                    margin-bottom: 2.4rem;
+                }
             }
         }
 
@@ -102,24 +140,36 @@
             display: flex;
             
             p {
-                font-size: 1.8rem;
+                font-size: 1.6rem;
                 line-height: 2.4rem;
-                flex: 0 0 70%;
+                flex: 0 0 64%;
+
+                @include respond(big-desktop) {
+                    font-size: 1.8rem;
+                    line-height: 2.4rem;
+                    flex: 0 0 70%;
+                }
             }
         }
 
         &--link {
             display: flex;
             align-items: center;
-            font-size: 1.6rem;
-            padding: 1rem 2.4rem;
+            font-size: 1.4rem;
+            padding: 1rem 1.8rem;
             background: $project_btn;
             text-decoration: none;
             color: $text;
             border-radius: 8px;
             margin-left: 1.6rem;
+            height: fit-content;
 
             transition: all .3s;
+
+            @include respond(big-desktop) {
+                padding: 1rem 2.4rem;
+                font-size: 1.6rem;
+            }
 
             &:hover {
                 transform: translateY(-3px);

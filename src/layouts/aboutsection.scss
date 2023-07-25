@@ -6,7 +6,11 @@
     background: $primary;
     overflow: hidden;
     padding-top: 9.6rem;
-    padding-bottom: 64rem;
+    padding-bottom: 48rem;
+
+    @include respond(big-desktop) {
+        padding-bottom: 64rem;
+    }
 
     &__content {
         

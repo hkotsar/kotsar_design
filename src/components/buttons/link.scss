@@ -5,7 +5,7 @@
     display: flex;
     
     align-items: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     border-bottom: 3.2px solid $project_btn;
 
     padding: .8rem 1.2rem .8rem 1.2rem;
@@ -26,6 +26,10 @@
     transition: background-position .3s cubic-bezier(.47, .1, 1, .63),
     color .3s linear;
     transition-delay: 0.0s, 0.15s;
+
+    @include respond(big-desktop) {
+        font-size: 1.8rem;
+    }
 
    
 
