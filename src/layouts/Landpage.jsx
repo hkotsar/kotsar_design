@@ -4,6 +4,7 @@ import './landpage.scss';
 import bg1 from '../assets/bg_illustration-1.svg';
 import bg2 from '../assets/bg_illustration-2.svg';
 import bg3 from '../assets/bg_illustration-3.svg';
+import ArrowLink from '../components/buttons/ArrowLink';
 
 function Landpage() {
   return (
@@ -16,7 +17,7 @@ function Landpage() {
             </div>
             <div className="landpage__links">
                 <Link className="btn" to="/">Vaata CV</Link>
-                <Link className="link_projects" to="/projektid">Projektid</Link>
+                <ArrowLink text={"Projektid"}  url={"/projektid"} hideSmallScreen={true}/>
             </div>
             <div className="landpage__techs">
                 <div className="tech">
