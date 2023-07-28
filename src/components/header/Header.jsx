@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import './header.scss';
 
@@ -21,14 +20,14 @@ const Header = () => {
                             <HashLink to="/#aboutme" className="nav__item--link">Enesetutvustus</HashLink>
                         </li>
                         <li className="nav__item">
-                            <Link to="/projektid" className="nav__item--link">Projektid</Link>
+                            <HashLink to="/projektid/ux-ui-disain#ux-ui" className="nav__item--link">Projektid</HashLink>
                         </li>
                     </ul>
                 </nav>
                 <div className="header__contact">
                     <HashLink to="/#contact" className="btn btn__contact">
                         <svg class="btn__contact--icon">
-                            <use xlinkHref="icons.svg#icon-mail_outline"></use>
+                            <use xlinkHref="../../icons.svg#icon-mail_outline"></use>
                         </svg>
                         <span>Võta ühendust</span>
                     </HashLink>

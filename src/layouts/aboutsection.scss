@@ -9,7 +9,11 @@
     padding-bottom: 48rem;
 
     @include respond(big-desktop) {
-        padding-bottom: 64rem;
+        padding-bottom: 58rem;
+    }
+
+    @include respond(tab-land) {
+        padding-bottom: 3.2rem;
     }
 
     &__content {

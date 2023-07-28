@@ -1,4 +1,5 @@
 @import '../../base.scss';
+@import '../../media.scss';
 
 .carousel {
     position: relative;
@@ -10,9 +11,6 @@
         height: 64vh;
     }
 
-    @include respond(tab-land) {
-        display: none;
-    }
     
     &__slide {
         display: flex;
@@ -22,14 +20,14 @@
         top: 0;
         position: absolute;
         width: auto;
-        padding-left: 46rem;
+        padding-left: 5.8rem;
         margin-top: 3.2rem;
         
         // overflow: visible;
         transition: transform .4s;
 
         @include respond(big-desktop) {
-            padding-left: 22%;
+            padding-left: 5.8rem;
         }
        
     }
@@ -43,6 +41,10 @@
     width: 120rem;
     margin: auto;
     margin-bottom: 1.9rem;
+
+    @include respond(tab-land) {
+        width: 90%;
+    }
 
     &--heading {
         font-size: 3.2rem;
@@ -86,19 +88,21 @@
 .slide {
     
     display: flex;
-    gap: 5%;
-    // gap: 6.4rem;
-    margin-left: -41rem;
+   
+    gap: 4.8rem;
+    margin-left: 1rem;
+    
 
     @include respond(big-desktop) {
-        gap: 5%;
-        margin-left: -35rem;
+        gap: 6.4rem;
+        margin-left: 1rem;
+        width: 134rem;
     }
     
 
     &__item {
-        width: 48rem;
-        height: 42rem;
+        width: 54rem;
+        height: 46rem;
         background: #fff;
         border-radius: 16px;
         box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
@@ -106,6 +110,13 @@
         @include respond(big-desktop) {
             width: 64rem;
             height: 54rem;
+        }
+
+        @include respond(tab-land) {
+            display: inline-block;
+            width: 42rem;
+            height: 30rem;
+            margin-bottom: 5rem;
         }
 
 
@@ -178,3 +189,4 @@
     }
     
 }
+

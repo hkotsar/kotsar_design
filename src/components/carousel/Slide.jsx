@@ -17,7 +17,7 @@ function Slide({ slide }) {
                     <div className="slide__item--flex">
                         
                         <p>{project.subtext}</p>
-                        <Link className="slide__item--link" to={`/projektid/${project.id}`}>Vaata lähemalt</Link>
+                        <Link target="_blank" className="slide__item--link" to={`/projektid/${project.id}` }>Vaata lähemalt</Link>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './link.scss'
 
 const ArrowLink = ({ text, url, hideSmallScreen }) => {
@@ -7,7 +7,7 @@ const ArrowLink = ({ text, url, hideSmallScreen }) => {
 
   return (
     <>
-        <Link 
+        <HashLink 
             to={url}  
             className={`arrow__link ${hideSmallScreen ? 'display__none' : ' ' }`}
             >
@@ -15,7 +15,7 @@ const ArrowLink = ({ text, url, hideSmallScreen }) => {
             <svg className="arrow__link--icon">
                 <use xlinkHref="../../icons.svg#icon-arrow-up-right2"></use>
             </svg>
-        </Link>
+        </HashLink>
     </>
   )
 }

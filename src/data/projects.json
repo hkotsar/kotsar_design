@@ -1,0 +1,391 @@
+{
+    "projects": [
+        {
+            "id": 561,
+            "title": "Heiki Kotsar - Portfoolio",
+            "subtext": "UX/UI disain ja veebiarendus",
+            "icon": "icon-figma",
+            "category": "ux_ui",
+            "image": "kotsar-design-2.jpg",
+            "alt": "Portfoolio",
+            "content": "UX/UI disain ja veebiarendus portfoolio",
+            "tech": [ 
+                { "name": "Figma"},
+                { "name": "React.js"},
+                { "name": "Sass"},
+                { "name": "PHP"}
+            ],
+            "links": [ 
+                { "name": "Figma", "link": "https://app.moqups.com/5WCnwWFtIGVpddKiIhrHdx6HuS0slupA/view/page/a045c2f3d"}
+              
+            ]
+                
+            
+        },
+        {
+            "id": 128,
+            "title": "Frillice äpi disain",
+            "subtext": "Frillice äpis tehtud disaini lahendused.  ",
+            "icon": "icon-figma",
+            "category": "ux_ui",
+            "image": "frillice_äpp.png",
+            "alt": "Frillice äpp",
+            "content": "Frillice äpis tehtud disaini lahendused. ",
+            "tech": [ 
+                { "name": "Figma"}
+            ],
+            "links": [
+                 { "name": "Pdf", "link": "https://drive.google.com/file/d/1NCIc44lmVkNeiJuwKXkS9uPlpTy8facf/view?usp=sharing"}
+            ]
+        },
+        {
+            "id": 652,
+            "title": "Avasta Tartut",
+            "subtext": "Aasta tegija võistlus 2023. 1.koht UX/UI disainerite kutsevõistlustel.",
+            "icon": "icon-figma",
+            "category": "ux_ui",
+            "image": "avasta_tartut.jpg",
+            "alt": "Avasta Tartut",
+            "content": "Aasta Tegija 2023 - UX/UI disainerite kutsevõistlus 1.koht. Võistlus toimus 7. märtsil ning ülesandeks oli kujundada interaktiivne prototüüp teemal Avasta Tartut. Prototüübi eesmärk oli tutvustada turistidele või Tartuga lähemalt tutvuda soovijatele Tartu vaatamisväärsusi ja vabaaja veetmise kohti. ",
+            "tech": [ 
+                { "name": "Figma"},
+                { "name": "Illustrator"}
+            ],
+            "links": [ 
+                { "name": "Figma link", "link": "https://www.figma.com/proto/Z3YRufBfUXetkP0DJiGaNL/V%C3%B5istlus-%C3%BClesanne-eelt%C3%B6%C3%B6?node-id=232%3A3567&scaling=scale-down&page-id=232%3A3566&starting-point-node-id=232%3A3567"},
+                { "name": "Dokumentatsioon", "link": "https://docs.google.com/document/d/1bauy65FJzZOsQ8Hj_SeX-8S9B7tf-ve_5j_f3s20jMM/edit?usp=sharing"},
+                { "name": "Kohtunike tagasiside", "link": "https://docs.google.com/document/d/1tQmXvdZiSkjSE2kMUOPc9ZYexm2mXRYHQxJyW2xCNFU/edit?usp=sharing"}
+    
+            ]
+        },
+        {
+            "id": 233,
+            "title": "UX/UI disaini portfoolio",
+            "subtext": "UX/UI disaineri erialal (Tartu Rakenduslik Kolledž) õpingute raames loodud portfoolio",
+            "icon": "icon-figma",
+            "category": "ux_ui",
+            "image": "arenguportfoolio.jpg",
+            "alt": "UX/UI disaini portfoolio",
+            "content": "UX/UI disaini arenguportfoolio, mis on selle eriala lõputöö Tartu Rakenduslik kolledž-is.",
+            "tech": [ 
+                { "name": "Figma"},
+                { "name": "React.js"},
+                { "name": "Sass"}
+            ],
+            "links": [
+                { "name": "Figma link", "link": "https://www.figma.com/file/0G7aygImBHGjGwobTo0RbZ/Arenguporfoolio?node-id=105%3A47&t=fi1lpRR79QXAbfq0-1"},
+                { "name": "Dokumentatsioon", "link": "https://docs.google.com/document/d/1BiMT8IUMBpsN9Cn915Gxrri3rhH2BCw2OzG1B2Rvfn0/edit?usp=sharing"},
+                { "name": "Veebirakendus", "link": "http://kotsarheikikd22.ikt.khk.ee/arenguportfoolio/"},
+                { "name": "Github (React)", "link": "https://github.com/hkotsar/arenguportfoolio_kd22"},
+                { "name": "Github (HTML/CSS/JS)", "link": "https://github.com/hkotsar/portfoolio_php_kd22"}
+            ]
+        },
+        {
+            "id": 490,
+            "title": "E-commerce mobile app",
+            "subtext": "Interaktiivse prototüübi loomine",
+            "icon": "icon-figma",
+            "category": "ux_ui",
+            "image": "e-commerce-app.jpg",
+            "alt": "E-commerce mobile app",
+            "content": "Kooli projekt, kus tuli välja mõelda oma kujundus ning teha interaktiivne prototüüb.",
+            "tech": [ 
+                { "name": "Figma"}
+            ],
+            "links": [ 
+                { "name": "Figma link", "link": "https://www.figma.com/proto/xSmTmRds3piQcvcR3TiHoj/E-commerce-mobile-app?node-id=109-287&scaling=scale-down&page-id=0%3A1&starting-point-node-id=109%3A287"}
+            ]
+        },
+        {
+            "id": 600,
+            "title": "E-commerce design",
+            "subtext": "Pärast kaitseväge kunagi loodud projekt, et meelde tuletada veebiarendust ning õppida UX/UI disaini",
+            "icon": "icon-figma",
+            "category": "ux_ui",
+            "image": "e-shop-design.jpg",
+            "alt": "E-commerce design",
+            "content": "Hobiprojekt, mille tegin kunagi pärast kaitseväge. Eesmärk oli veebiarendust meelde tuletada, õppida figmat kasutama ja üleüldiselt katsetada/õppida disaini.",
+            "tech": [ 
+                { "name": "Figma"},
+                { "name": "HTML"},
+                { "name": "CSS"},
+                { "name": "Javascript"}
+            ],
+            "links": [ 
+                { "name": "Veebileht", "link": "https://kotsar-e-shop-design.netlify.app/index.html"},
+                { "name": "Figma link", "link": "https://www.figma.com/file/ZLtMJvjYJ6aBbrJcrpzjUI/E-shop?node-id=30317%3A4441&t=IB7OX3nISctSESRp-1"}
+            ]
+        },
+        {
+            "id": 161,
+            "title": "Heiki Kotsar - Portfoolio",
+            "subtext": "UX/UI disain ja veebiarendus",
+            "icon": "icon-embed2",
+            "category": "dev",
+            "image": "kotsar-design-2.jpg",
+            "alt": "Portfoolio",
+            "content": "UX/UI disain ja veebiarendus portfoolio",
+            "tech": [ 
+                { "name": "Figma"},
+                { "name": "React.js"},
+                { "name": "Sass"},
+                { "name": "PHP"}
+            ],
+            "links": [ 
+                { "name": "Figma", "link": "https://app.moqups.com/5WCnwWFtIGVpddKiIhrHdx6HuS0slupA/view/page/a045c2f3d"}
+              
+            ]
+        },
+        {
+            "id": 162,
+            "title": "Frillice veebirakendus",
+            "subtext": "Disain ja arendus. Uudiskirja sektsioon, Frillice-it tutvustav video modal, privacy policy modal.",
+            "icon": "icon-embed2",
+            "category": "dev",
+            "image": "frillice_veebirakendus.png",
+            "alt": "Frillice veebirakendus",
+            "content": "Disain ja arendus. Uudiskirja sektsioon, Frillice-it tutvustav video modal, privacy policy modal. Esimesena disainisin uudiskirja sektsiooni, Figmas sai tehtud kujundus desktop kui ka mobilli vaates ja kui tiim vaatas lahendused üle siis hakkasin järgmisena seda arendama. Järgmise ülesandena arendasin avalehele nuppu, milliele klikkates avaneb modal koos videoga, mis tutvustab Frillice teenust. Kolmanda komponendina disainisin Figma Cookie Policy modali nii desktop kui ka mobiili vaates. Seejärel kui disain sai paika siis samuti arendasin valmis.",
+            "tech": [ 
+                { "name": "Figma"},
+                { "name": "Next.js"}
+            ],
+            "links": [
+                 { "name": "Frillice veebirakendus", "link": "https://frillice.com/"}
+            ]
+        },
+        {
+            "id": 55,
+            "title": "UX/UI disaini portfoolio",
+            "subtext": "UX/UI disaineri erialal (Tartu Rakenduslik Kolledž) õpingute raames loodud portfoolio",
+            "icon": "icon-embed2",
+            "category": "dev",
+            "image": "arenguportfoolio.jpg",
+            "alt": "UX/UI disaini portfoolio",
+            "content": "UX/UI disaini arenguportfoolio, mis on selle eriala lõputöö Tartu Rakenduslik kolledž-is.",
+            "tech": [ 
+                { "name": "Figma"},
+                { "name": "HTML"},
+                { "name": "CSS"},
+                { "name": "Javascript"},
+                { "name": "PHP"}
+            ],
+            "links": [ 
+                { "name": "Figma link", "link": "https://www.figma.com/file/0G7aygImBHGjGwobTo0RbZ/Arenguporfoolio?node-id=105%3A47&t=fi1lpRR79QXAbfq0-1"},
+                { "name": "Dokumentatsioon", "link": "https://docs.google.com/document/d/1BiMT8IUMBpsN9Cn915Gxrri3rhH2BCw2OzG1B2Rvfn0/edit?usp=sharing"}
+            ]
+        },
+        {
+            "id": 777,
+            "title": "E-commerce design",
+            "subtext": "Pärast kaitseväge kunagi loodud hobiprojekt, et meelde tuletada veebiarendust ning õppida UX/UI disaini",
+            "icon": "icon-embed2",
+            "category": "dev",
+            "image": "e-shop-design.jpg",
+            "alt": "E-commerce design",
+            "content": "Hobiprojekt, mille tegin kunagi pärast kaitseväge. Eesmärk oli veebiarendust meelde tuletada, õppida figmat kasutama ja üleüldiselt katsetada/õppida disaini.",
+            "tech": [
+                { "name": "Figma"},
+                { "name": "HTML"},
+                { "name": "CSS"},
+                { "name": "Javascript"}
+            ],
+            "links": [ 
+                { "name": "Veebileht", "link": "https://kotsar-e-shop-design.netlify.app/index.html"},
+                { "name": "Figma link", "link": "https://www.figma.com/file/ZLtMJvjYJ6aBbrJcrpzjUI/E-shop?node-id=30317%3A4441&t=IB7OX3nISctSESRp-1"}
+            ]
+        },
+        {
+            "id": 118,
+            "title": "Lõputöö - praktikadokumentide haldussüsteem",
+            "subtext": "Noorem tarkvaraarendaja erialal Tartu Kutsehariduskeskuses",
+            "icon": "icon-embed2",
+            "category": "dev",
+            "image": "loputoo.jpg",
+            "alt": "VS18 Lõputöö",
+            "content": "Lõputöö eesmärgiks oli luua veebirakendus, mis võimaldab Tartu Kutsehariduskeskuse IKT-osakonnal hallata praktikaga seonduvaid dokumente digitaalselt. Selles projektis tegelesin mina peamiselt back-end arendusega ning UX/UI-ga puutusin vähe kokku. Projektil on kõige põhjalikum dokumentatsioon mis kirjutanud olen.",
+            "tech": [ 
+                { "name": "HTML"},
+                { "name": "CSS"},
+                { "name": "Javascript"},
+                { "name": "Vue.js"},
+                { "name": "Node.js"},
+                { "name": "MongoDB"}
+            ],
+            "links": [
+                { "name": "Veebileht", "link": "https://praktika.ikt.khk.ee/"},
+                { "name": "Dokumnetatsioon", "link": "https://drive.google.com/file/d/1EJrrH_jImKEEYwpqzLbVToJTMr1OZh2s/view?usp=sharing"}
+                
+            ]
+        },
+        {
+            "id": 212,
+            "title": "Book Your Training",
+            "subtext": "Startup projekt, kus olin disainer ja front-end arendaja",
+            "icon": "icon-embed2",
+            "category": "dev",
+            "image": "byt.jpg",
+            "alt": "UX/UI disaini portfoolio",
+            "content": "Startup projekt, kus olin disainer ja front-end arendaja.",
+            "tech": [ 
+                { "name": "HTML"},
+                { "name": "CSS"},
+                { "name": "Javascript"}
+            ],
+            "links": [
+                { "name": "BYT veebileht", "link": "https://byt.kotsardesign.com/"},
+                { "name": "BYT dashboard", "link": "https://byt.kotsardesign.com/homepage.html"},
+                { "name": "BYT-partner veebileht", "link": "https://byt-partner.kotsardesign.com/"},
+                 { "name": "BYT-partner dashboard", "link": "https://byt-partner.kotsardesign.com/partner-admin.html"}
+            ]
+        },
+        {
+            "id": 511,
+            "title": "Frillice äpi screenid",
+            "subtext": "App store-i ja Google Play poodi disainisin screen-id, mis tutvustavad Frillice rakendust.",
+            "icon": "icon-figma",
+            "category": "graphics",
+            "image": "frillice_screenid.png",
+            "alt": "Frillice äpp",
+            "content": "App store-i ja Google Play poodi disainisin screen-id, mis tutvustavad Frillice rakendust.",
+            "tech": [ 
+                { "name": "Figma"}
+            ],
+            "links": [
+                 { "name": "App Store", "link": "https://apps.apple.com/ee/app/frillice-nutrition/id1660586841"}
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Visiitkaart",
+            "subtext": "Graafilise disaini aine raames visiitkaaardi tegemine",
+            "icon": "icon-adobeillustrator",
+            "category": "graphics",
+            "image": "visiitkaart.jpg",
+            "alt": "Visiitkaart",
+            "content": "",
+            "tech": [ 
+                { "name": "Illustrator"}
+            ],
+            "links": [
+                { "name": "Pdf formaat", "link": "https://drive.google.com/file/d/11OcuJq3qU2eHjsvAQ1wGWLqzgV2tDxnq/view?usp=sharing"}
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Illustrator: 3D efektid",
+            "subtext": "Graafilise disaini tunnis 3D efektide õppimine",
+            "icon": "icon-adobeillustrator",
+            "category": "graphics",
+            "image": "3d-phone-heiki-kotsar.jpg",
+            "alt": "Illustrator 3D",
+            "content": "Graafilise disaini tunnis 3D efektide õppimine.",
+            "tech": [ 
+                { "name": "Illustrator"}
+            ],
+            "links": [
+             
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Frillice kasutajakogemuse analüüs",
+            "subtext": "7-nädalane UX analüüsi projekt",
+            "icon": "icon-figma",
+            "category": "other",
+            "image": "frillice.jpg",
+            "alt": "Frillice",
+            "content": "Projekt mille eesmärk oli  läbi erinevate UX analüüsi meetodite selgitada välja Frillice toitumise äpp-i sihtrühm ja testida nendega toidulaua funktsionaalsuse kasutatavust.",
+            "tech": [ 
+                { "name": "Figma"}
+            ],
+            "links": [
+                 { "name": "Kasutatavuse test ", "link": "https://docs.google.com/document/d/1rugzOZXUiFbK-ozurHJeMiRiMooNkWLmCX1HY7smXNA/edit?usp=sharing"}
+            ]
+        },
+        {
+            "id": 123,
+            "title": "Heikki Mägi koduleht",
+            "subtext": "Frillice juhile personaalne koduleht. Disain ja arendus (Figma, Wordpress).",
+            "icon": "icon-wordpress",
+            "category": "cms",
+            "image": "wordpress.png",
+            "alt": "Koduleht",
+            "content": "Saadud infoga tutvunud hakkasin järgmisena Figmas tegema disainikavandid mida vastavalt tagasisidele muutsin ja täiendasin. Kodulehe sektsioonid paigas hakkasin katsetama erinevaid värvilahendusi. Viimased parandused disainis tehtud siis alustasin arendus protsessiga. ",
+            "tech": [ 
+                { "name": "Figma"},
+                { "name": "Wordpress"}
+            ],
+            "links": [
+                 { "name": "Koduleht", "link": "https://heikkimagi.com/"}
+            ]
+        }
+    ],
+    "slides": [
+        {
+            "id": 1,
+            "slide": "slide 1",
+            "projects": [
+                {
+                    "id": 652,
+                    "title": "Avasta Tartut",
+                    "subtext": "Aasta tegija võistlus 2023. 1.koht UX/UI disainerite kutsevõistlustel.",
+                    "image": "avasta_tartut.jpg"
+                },
+                {
+                    "id": 233,
+                    "title": "UX/UI disaini portfoolio",
+                    "subtext": "UX/UI disaineri erialal (Tartu Rakenduslik Kolledž) õpingute raames loodud portfoolio.",
+                    "image": "arenguportfoolio.jpg"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "slide": "slide 2",
+            "projects": [
+                {
+                    "id": 123,
+                    "title": "Heikki Mägi koduleht",
+                    "subtext": "Frillice juhile personaalne koduleht. Disain ja arendus (Figma, Wordpress).",
+                    "image": "wordpress.png"
+                },
+                {
+                    "id": 128,
+                    "title": "Frillice äpi disain",
+                    "subtext": "Frillice äpi jaoks tehtud disaini lahendused.",
+                    "image": "frillice_äpp.png"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "slide": "slide 3",
+            "projects": [
+                {
+                    "id": 162,
+                    "title": "Frillice veebirakendus",
+                    "subtext": "Disain ja arendus. Uudiskirja sektsioon, Frillice-it tutvustav video modal, privacy policy modal.",
+                    "image": "frillice_veebirakendus.png"
+                },
+                {
+                    "id": 511,
+                    "title": "Frillice äpi screenid",
+                    "subtext": "App store-i ja Google Play poodi disainitud screen-id, mis tutvustavad Frillice rakendust.",
+                    "image": "frillice_screenid.png"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "slide": "slide 4",
+            "projects": [
+                {
+                    "id": 561,
+                    "title": "Heiki Kotsar - Portfoolio",
+                    "subtext": "UX/UI disain ja veebiarendus",
+                    "image": "kotsar-design-2.jpg"
+                }
+            ]
+        }
+    ]
+}

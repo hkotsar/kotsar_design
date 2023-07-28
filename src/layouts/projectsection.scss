@@ -1,11 +1,15 @@
 @import '../base.scss';
 
-.projects {
+.carousel-projects {
     margin-top: -38rem;
     overflow: hidden;
     margin-bottom: 4rem;
 
     @include respond(big-desktop) {
-        margin-top: -48rem;
+        margin-top: -49.8rem;
+    }
+
+    @include respond(tab-land) {
+        display: none;
     }
 }

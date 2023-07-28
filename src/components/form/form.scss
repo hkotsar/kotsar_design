@@ -1,0 +1,106 @@
+@import '../../base.scss';
+@import '../../media.scss';
+
+.form {
+    display: grid;
+    grid-template-rows: 12rem 32rem 6rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.4rem;
+    
+    @include respond(phone) {
+        grid-template-rows: 8rem 8rem 1fr 6rem;
+        grid-template-columns: 1fr;
+        
+    }
+
+    &__group {
+        position: relative;
+        display: flex;
+        flex-flow: column-reverse;
+        justify-content: center;
+        
+        
+        // background: blue;
+
+        &--text {
+            display: flex;
+            flex-flow: column-reverse;
+            grid-column: 1 / -1;
+            // background: red;
+        }
+    }
+
+    &__label {
+        display: none;
+        font-size: 1.8rem;
+        font-weight: 700;
+        
+    }
+
+    &__name {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-left: 2.4rem;
+        transition: all .3s;
+        margin-bottom: 1rem;
+        color: $secondary;
+
+        @include respond(tab-port) {
+            font-size: 1.6rem;
+        }
+    }
+
+    &__input {
+        font-size: 2.4rem;
+        font-family: inherit;
+        padding: 1.6rem 2rem;
+        padding-left: 2.4rem;
+        border-radius: 4px;
+        height: 4.6rem;
+        border: none;
+        
+        
+        display: block;
+
+        &:focus {
+            outline: none;
+           
+        }
+    }
+
+    &__text {
+       
+        font-family: inherit;
+        font-size: 2.4rem;
+        padding: 1.6rem 2rem;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+        width: 96.5%;
+
+        @include respond(tab-land) {
+            width: 95.4%;
+        }
+
+        @include respond(tab-port) {
+            width: 93.6%;
+        }
+
+        @include respond(phone) {
+            width: 90.5%;
+        }
+    }
+
+}
+
+.form__input:placeholder-shown ~ .form__name {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(4rem);
+}
+
+.form__text:placeholder-shown ~ .form__name {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(4rem);
+}
