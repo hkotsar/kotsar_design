@@ -1,5 +1,4 @@
 import React from 'react';
-import ArrowLink from '../buttons/ArrowLink';
 import './footer.scss';
 
 function Footer() {
