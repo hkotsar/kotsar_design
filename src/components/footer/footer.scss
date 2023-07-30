@@ -9,11 +9,51 @@
 
 
     &__content {
+        display: flex;
+        flex-direction: column;
         text-align: center;
+
+       
 
         &--email {
             font-size: 2.4rem;
+            margin-bottom: 2.4rem;
             color: #fff;
+        }
+
+        &--link {
+            
+            font-size: 1.8rem;
+            color: #fff;
+            text-decoration: none;
+            border-bottom: 2px solid $project_btn;
+            width: fit-content;
+            padding: .4rem .8rem .4rem .8rem;
+            margin: auto;
+
+            // Animations
+            background-image: linear-gradient(90deg,
+            $primary 0%,
+            $primary 50%,
+            $project_btn 50%,
+            $project_btn 100%);
+
+            background-size: 300%;
+
+            transition: background-position .3s cubic-bezier(.47, .1, 1, .63),
+            color .3s linear;
+            transition-delay: 0.0s, 0.15s;
+
+            @include respond(phone) {
+                padding: .4rem .4rem .4rem .4rem;
+            }
+
+            &:hover {
+                cursor: pointer;
+                background-position: -50% 100%;
+                color: #fff;
+                border-radius: 2px;
+            }
         }
     }
 }

@@ -6,6 +6,7 @@
     width: 100rem;
     margin: auto;
     padding-bottom: 4rem;
+    overflow: hidden;
     
 
     @include respond(tab-land) {
@@ -20,6 +21,7 @@
         
         @include respond(tab-land) {
             border-radius: 0px;
+            border: none;
         }
     }
 
@@ -36,6 +38,7 @@
 
         @include respond(tab-port) {
             margin-bottom: 12rem;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 0px;
         }
 
         h1 {

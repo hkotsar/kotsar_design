@@ -58,6 +58,7 @@ $tab--5: #c3073f;
     font-weight: 500;
     transition: all .3s;
     line-height: 2.2rem;
+    border: none;
     cursor: pointer;
 
     @include respond(big-desktop) {

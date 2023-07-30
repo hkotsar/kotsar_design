@@ -11,6 +11,7 @@ import Tab3 from './components/tabs/Tab3';
 import Tab4 from './components/tabs/Tab4';
 import Tab5 from './components/tabs/Tab5';
 import Footer from './components/footer/Footer';
+import PhoneNav from './components/phone-nav/PhoneNav';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
+        <PhoneNav />
       <Footer />
     </>
   );

@@ -3,12 +3,12 @@
 
 .form {
     display: grid;
-    grid-template-rows: 12rem 32rem 6rem;
+    grid-template-rows: 12rem 42rem 6rem;
     grid-template-columns: 1fr 1fr;
-    gap: 2.4rem;
+    
     
     @include respond(phone) {
-        grid-template-rows: 8rem 8rem 1fr 6rem;
+        grid-template-rows: 12rem 12rem 1fr 6rem;
         grid-template-columns: 1fr;
         
     }
@@ -26,6 +26,7 @@
             display: flex;
             flex-flow: column-reverse;
             grid-column: 1 / -1;
+            margin-bottom: 4.8rem;
             // background: red;
         }
     }
@@ -103,4 +104,12 @@
     opacity: 0;
     visibility: hidden;
     transform: translateY(4rem);
+}
+
+.margin-right {
+    margin-right: 4.8rem;
+
+    @include respond(phone) {
+        margin-right: 0rem;
+    }
 }
