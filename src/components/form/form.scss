@@ -92,6 +92,35 @@
         }
     }
 
+    &__flex {
+        display: flex;
+        grid-column: 1 / -1;
+        width: 100%;
+    }
+
+    &__message {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        width: 70%;
+
+        @include respond(phone) {
+            width: 50%;
+            margin-left: 2rem;
+        }
+        
+        span {
+            text-align: center;
+            font-size: 1.8rem;
+
+            @include respond(phone) {
+                font-size: 1.6rem;
+            }
+        }
+    }
+
 }
 
 .form__input:placeholder-shown ~ .form__name {

@@ -5,7 +5,7 @@
 /.htaccess
 /.pnp
 .pnp.js
-
+/sendEmail.php
 # testing
 /coverage
 

@@ -16,7 +16,8 @@
                 { "name": "PHP"}
             ],
             "links": [ 
-                { "name": "Figma", "link": "https://app.moqups.com/5WCnwWFtIGVpddKiIhrHdx6HuS0slupA/view/page/a045c2f3d"}
+                { "name": "Figma", "link": "https://www.figma.com/file/AqnSEQAY6adY36JwFZ3tDx/Portfoolio-KotsarDesign?type=design&node-id=0%3A1&mode=design&t=p35oaSHZvB7A7c8E-1"},
+                { "name": "Github", "link": "https://github.com/hkotsar/kotsar_design"}
               
             ]
                 
@@ -113,7 +114,8 @@
             ],
             "links": [ 
                 { "name": "Veebileht", "link": "https://kotsar-e-shop-design.netlify.app/index.html"},
-                { "name": "Figma link", "link": "https://www.figma.com/file/ZLtMJvjYJ6aBbrJcrpzjUI/E-shop?node-id=30317%3A4441&t=IB7OX3nISctSESRp-1"}
+                { "name": "Figma", "link": "https://www.figma.com/file/ZLtMJvjYJ6aBbrJcrpzjUI/E-shop?node-id=30317%3A4441&t=IB7OX3nISctSESRp-1"},
+                { "name": "Github", "link": "https://github.com/hkotsar/e-shop-design"}
             ]
         },
         {
@@ -132,7 +134,8 @@
                 { "name": "PHP"}
             ],
             "links": [ 
-                { "name": "Figma", "link": "https://app.moqups.com/5WCnwWFtIGVpddKiIhrHdx6HuS0slupA/view/page/a045c2f3d"}
+                { "name": "Figma", "link": "https://www.figma.com/file/AqnSEQAY6adY36JwFZ3tDx/Portfoolio-KotsarDesign?type=design&node-id=0%3A1&mode=design&t=p35oaSHZvB7A7c8E-1"},
+                { "name": "Github", "link": "https://github.com/hkotsar/kotsar_design"}
               
             ]
         },
@@ -164,14 +167,15 @@
             "content": "UX/UI disaini arenguportfoolio, mis on selle eriala lõputöö Tartu Rakenduslik kolledž-is.",
             "tech": [ 
                 { "name": "Figma"},
-                { "name": "HTML"},
-                { "name": "CSS"},
-                { "name": "Javascript"},
-                { "name": "PHP"}
+                { "name": "React.js"},
+                { "name": "Sass"}
             ],
             "links": [ 
                 { "name": "Figma link", "link": "https://www.figma.com/file/0G7aygImBHGjGwobTo0RbZ/Arenguporfoolio?node-id=105%3A47&t=fi1lpRR79QXAbfq0-1"},
-                { "name": "Dokumentatsioon", "link": "https://docs.google.com/document/d/1BiMT8IUMBpsN9Cn915Gxrri3rhH2BCw2OzG1B2Rvfn0/edit?usp=sharing"}
+                { "name": "Dokumentatsioon", "link": "https://docs.google.com/document/d/1BiMT8IUMBpsN9Cn915Gxrri3rhH2BCw2OzG1B2Rvfn0/edit?usp=sharing"},
+                { "name": "Veebirakendus", "link": "http://kotsarheikikd22.ikt.khk.ee/arenguportfoolio/"},
+                { "name": "Github (React)", "link": "https://github.com/hkotsar/arenguportfoolio_kd22"},
+                { "name": "Github (HTML/CSS/JS)", "link": "https://github.com/hkotsar/portfoolio_php_kd22"}
             ]
         },
         {
@@ -191,7 +195,8 @@
             ],
             "links": [ 
                 { "name": "Veebileht", "link": "https://kotsar-e-shop-design.netlify.app/index.html"},
-                { "name": "Figma link", "link": "https://www.figma.com/file/ZLtMJvjYJ6aBbrJcrpzjUI/E-shop?node-id=30317%3A4441&t=IB7OX3nISctSESRp-1"}
+                { "name": "Figma", "link": "https://www.figma.com/file/ZLtMJvjYJ6aBbrJcrpzjUI/E-shop?node-id=30317%3A4441&t=IB7OX3nISctSESRp-1"},
+                { "name": "Github", "link": "https://github.com/hkotsar/e-shop-design"}
             ]
         },
         {
@@ -212,7 +217,7 @@
                 { "name": "MongoDB"}
             ],
             "links": [
-                { "name": "Veebileht", "link": "https://praktika.ikt.khk.ee/"},
+                { "name": "Veebirakendus", "link": "https://praktika.ikt.khk.ee/"},
                 { "name": "Dokumnetatsioon", "link": "https://drive.google.com/file/d/1EJrrH_jImKEEYwpqzLbVToJTMr1OZh2s/view?usp=sharing"}
                 
             ]

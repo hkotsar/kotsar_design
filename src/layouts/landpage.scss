@@ -26,20 +26,28 @@
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    padding-top: 5.6rem;
     
     @include respond(big-desktop) {
         height: 90vh;
+        padding-top: 6.4rem;
     }
+
     
     
     &__content {
         width: 120rem;
         margin: auto;
-        margin-bottom: -4.2rem;
+        
+
+        @include respond(big-desktop) {
+            
+        }
 
         @include respond(tab-land) {
             width: 100%;
             margin-left: 3.2rem;
+            margin-bottom: -4.2rem;
         }
 
         @include respond(tab-port) {
@@ -55,7 +63,7 @@
         display: flex;
         align-items: center;
         gap: 1rem;
-        margin-bottom: 1.8rem;
+        margin-bottom: 1.4rem;
 
         @include respond(big-desktop) {
             margin-bottom: 4.8rem;

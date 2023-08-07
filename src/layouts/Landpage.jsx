@@ -16,7 +16,7 @@ function Landpage() {
                 <h2>Front-end arendaja</h2>
             </div>
             <div className="landpage__links">
-                <Link className="btn" target="_blank" to="https://drive.google.com/file/d/1C7gcB6dqKccGaOVqkhv2qGypVqgGknyh/view?usp=sharing">Vaata CV</Link>
+                <Link className="btn" target="_blank" to="https://drive.google.com/file/d/11M7s3uDMgYDSrGbfcOvVQvROroPgy-lR/view?usp=sharing">Vaata CV</Link>
                 <ArrowLink text={"Projektid"}  url={"/projektid/ux-ui-disain#ux-ui"} hideSmallScreen={true}/>
             </div>
             <div className="landpage__techs">

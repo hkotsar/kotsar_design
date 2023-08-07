@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Slide({ slide }) {
     const { name, projects } = slide
-    console.log(projects)
+    
 
   return (
     <div className={`slide ${name}`}>
